@@ -1,6 +1,8 @@
 'use strict';
 
 // iterative method
+// time complexity is O(n) or linear
+// space complexity is O(1) or constant
 function fib(pos) {
   if (pos < 2) return pos;
   let sLast = 0;
