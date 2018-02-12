@@ -8,8 +8,8 @@ function revStrInPlace(string) {
   let arr = string.split('');
   let start = 0;
   let end = arr.length - 1;
-  console.log(start, end);
-  console.log(arr[start], arr[end]);
+  // console.log(start, end);
+  // console.log(arr[start], arr[end]);
 
   while (start < end) {
     let temp = arr[start];
